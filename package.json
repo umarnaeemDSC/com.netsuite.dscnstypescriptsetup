@@ -1,0 +1,25 @@
+{
+  "name": "ns_external_portal",
+  "version": "1.0.0",
+  "description": "Implementing external portal using suitelet",
+  "main": "suitecloud.config.js",
+  "scripts": {
+    "compile": "npx tsc",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "Netsuite",
+    "Portal",
+    "External",
+    "Portal"
+  ],
+  "devDependencies": {
+    "@hitc/netsuite-types": "2022.2.1",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^8.57.1",
+    "typescript": "4.8.4"
+  },
+  "author": "M.Umar Bin Naeem",
+  "license": "ISC"
+}

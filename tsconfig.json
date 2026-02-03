@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "AMD",
+        "target": "ES2022",
+        "sourceMap": false,
+        "baseUrl": ".",
+        "paths": {
+            "N/*": [
+                "node_modules/@hitc/netsuite-types/N/*"
+            ]
+        },
+        "outDir": "./src/FileCabinet/SuiteApps/com.netsuite.dscnstypescriptsetup",
+        "rootDir": "src/typescript/"
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}
