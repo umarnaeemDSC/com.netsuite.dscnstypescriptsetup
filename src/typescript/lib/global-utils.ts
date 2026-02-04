@@ -26,6 +26,8 @@ export const getAllRowsFromSearch = (searchObj: search.Search): search.Result[] 
 
             resultList = [...resultList, ...currList];
 
+
+            //es-lint disable next line
             if (currList.length < 1000) {
                 break;
             }
