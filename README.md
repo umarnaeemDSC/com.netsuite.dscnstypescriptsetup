@@ -6,6 +6,7 @@ This project is a template for developing NetSuite SuiteScripts using TypeScript
 
 *   Node.js (LTS version recommended)
 *   SuiteCloud CLI (`@oracle/suitecloud-cli`) installed and configured with authentication.
+*   **VS Code ESLint Extension**: Required for real-time error highlighting in the editor.
 
 ## Setup
 
@@ -30,6 +31,8 @@ npm run watch
 *   **Uploads**: Watches the output directory. When a file is compiled, it automatically runs `suitecloud file:upload` for that specific file.
 
 ### 2. Linting
+
+> **⚠️ IMPORTANT**: Do not modify the `.eslintrc.json` file. These rules are fixed to ensure code consistency.
 
 To check your code for styling and potential errors, run:
 
