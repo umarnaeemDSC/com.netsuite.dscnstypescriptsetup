@@ -67,7 +67,7 @@ export const injectSpinner = () => {
     } catch (error) {
         log.error({ title: title + 'error', details: error });
     }
-}
+};
 
 export const showSpinner = () => {
     const title = 'showSpinner :: ';
@@ -83,7 +83,7 @@ export const showSpinner = () => {
         log.error({ title: title + 'error', details: error });
     }
 
-}
+};
 
 export const hideSpinner = () => {
     const title = 'hideSpinner :: ';
@@ -98,5 +98,5 @@ export const hideSpinner = () => {
         log.error({ title: title + 'error', details: error });
     }
 
-}
+};
 

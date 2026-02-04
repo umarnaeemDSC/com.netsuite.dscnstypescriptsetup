@@ -1,0 +1,5 @@
+src/FileCabinet
+**/*.js
+node_modules
+dist
+build
