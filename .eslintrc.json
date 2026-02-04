@@ -28,6 +28,22 @@
         "complexity": [
             "error",
             11
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "semi-style": [
+            "error",
+            "last"
+        ],
+        "no-unexpected-multiline": "error",
+        "func-style": [
+            "error",
+            "declaration",
+            {
+                "allowArrowFunctions": true
+            }
         ]
     }
 }
