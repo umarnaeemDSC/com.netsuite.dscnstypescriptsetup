@@ -34,6 +34,7 @@ export const afterSubmit = (context: EntryPoints.UserEvent.afterSubmitContext) =
         log.debug({ title: title + 'context', details: context });
         const customerData = customAUtils.getCustomerEntityIds();
         log.debug({ title: title + 'customerData', details: customerData });
+        log.debug({title: title + 'title', details: title});
     } catch (error) {
         log.error({ title: title + 'error', details: error });
     }
